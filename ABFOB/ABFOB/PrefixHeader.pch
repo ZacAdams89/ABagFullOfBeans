@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  A Bag Full Of Beans
+//
+//  Created by Zac Adams on 9/12/15.
+//  Copyright © 2015 A Bag Full Of Beans. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Animation.h"
+
+#import <Parse/Parse.h>
+#import <Parse/PFObject+Subclass.h>
+#import <Bolts/Bolts.h>
+#import <RoamToolKit/RoamToolKit.h>
+
+//#import <RMXmppSDK/RMXmppSDK.h>
+
+#import "Pricing.h"
+#import "DataModel.h"
+#import "Managers.h"
+#import "AppDelegate.h"
+
+
+#define C_PRIMARY C_HEX_STRING(@"EC6564")
+#define C_SECONDARY C_HEX_STRING(@"90CEC9")
+#define C_TERTIARY C_HEX_STRING(@"F9D367")
+#define C_TAB_BAR C_WHITE
+#define C_FADED C_LIGHT_GRAY
+#define C_SELECTED C_BLACK
+
+#define FEATURE_FONT_OF_SIZE(x) [UIFont fontWithName:@"MuseoSlab-1000" size:x]
+#define TITLE_FONT_OF_SIZE(x) [UIFont fontWithName:@"MuseoSlab-500" size:x]
+#define FONT_OF_SIZE(x) [UIFont fontWithName:@"MuseoSlab-300" size:x]
+#define SECONDARY_FONT_SIZE(x) [UIFont fontWithName:@"MuseoSlab-100Italic" size:x]
+
+
+static const CGFloat kStatusBarHeight = 20.0f;
+static const CGFloat kNavigationBarHeight = 44.0f;
+static const CGFloat kExtendedNavBarHeight = 64.0f;
+
+#endif /* PrefixHeader_pch */

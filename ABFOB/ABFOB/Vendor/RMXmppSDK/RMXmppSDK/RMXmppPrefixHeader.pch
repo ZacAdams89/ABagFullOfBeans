@@ -1,0 +1,28 @@
+//
+//  RMXmppPrefixHeader.pch
+//  RMXmppSDK
+//
+//  Created by Zac Adams on 14/12/15.
+//  Copyright © 2015 roamltd. All rights reserved.
+//
+
+#ifndef RMXmppPrefixHeader_pch
+#define RMXmppPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DDLog.h"
+#import "GCDAsyncSocket.h"
+#import "XMPP.h"
+#import "XMPPLogging.h"
+#import "XMPPReconnect.h"
+#import "XMPPCapabilitiesCoreDataStorage.h"
+#import "XMPPRosterCoreDataStorage.h"
+#import "XMPPvCardAvatarModule.h"
+#import "XMPPvCardCoreDataStorage.h"
+#import "DDTTYLogger.h"
+
+#import "RMXmppSDK.h"
+
+#endif /* RMXmppPrefixHeader_pch */
